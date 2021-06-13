@@ -27,6 +27,7 @@
 	color: red;
 	background: #f4f4f4;
 	border: 1px solid #171717;
+	border: none;
 	cursor: pointer;
 	transition: all 0.3s ease-out;
 }
@@ -36,4 +37,19 @@
 .carItem__deleteBtn:focus {
 	background: #171717;
 	transform: scale(1.2);
+}
+
+@media (max-width: 700px) {
+	.cartItem__name {
+		font-size: 0.8rem;
+	}
+
+	.cartItem__select,
+	.cartItem__deleteBtn {
+		padding: 8px 13px;
+	}
+
+	.cartItem__price {
+		font-size: 0.8rem;
+	}
 }
