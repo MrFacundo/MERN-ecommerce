@@ -74,6 +74,7 @@
 @media (max-width: 960px) {
 	.productscreen {
 		flex-direction: column;
+		max-width: 90%;
 	}
 
 	.productscreen__left {
