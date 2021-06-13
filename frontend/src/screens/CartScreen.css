@@ -15,6 +15,10 @@
 	padding: 1rem;
 }
 
+.cartscreen__left p {
+	margin: 1rem 0;
+}
+
 .cartscreen__right {
 	flex: 0.3;
 	background: #fff;
@@ -29,6 +33,7 @@
 
 .cartscreen__info p {
 	padding: 8px;
+	text-align: end;
 }
 
 .cartscreen__info p:first-child {
@@ -55,6 +60,8 @@
 @media (max-width: 1320px) {
 	.cartscreen {
 		max-width: 900px;
+		align-items: center;
+
 	}
 }
 
@@ -62,6 +69,14 @@
 	.cartscreen {
 		max-width: 800px;
 		flex-direction: column;
+	}
+	.cartscreen__right {
+		width: 80%;
+	}
+
+	.cartscreen__left {
+		text-align-last: center;
+	}
 		text-align: center;
 	}
 	.cartscreen__right,
